@@ -6,6 +6,7 @@ A vision language powered detection pipeline that analyzes images to identify an
 <p align="center">
   <img src="Flowchart_workflow_mermaid_diagram.png" width="800"/>
 </p>
+
 ## Limitations
 - Qwen2-VL may return invalid JSON.
 - OWLv2 accuracy depends on text prompt quality.
