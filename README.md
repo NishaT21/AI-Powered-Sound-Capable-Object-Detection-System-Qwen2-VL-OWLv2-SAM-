@@ -6,3 +6,19 @@ A vision language powered detection pipeline that analyzes images to identify an
 <p align="center">
   <img src="Flowchart_workflow_mermaid_diagram.png" width="800"/>
 </p>
+## Limitations
+- Qwen2-VL may return invalid JSON.
+- OWLv2 accuracy depends on text prompt quality.
+- High GPU memory requirement (7B model).
+- Quantization reduces memory but may affect accuracy.
+- Not optimized for real-time inference.
+
+## 🧪 How to Run
+
+### 1️⃣ Google Colab Setup (Recommended)
+
+1. Open `AI_PoweredSoundCapableObjectDetection.ipynb` in **Google Colab**
+2. Navigate to:  
+   **Runtime → Change runtime type → Select GPU**
+3. Run all cells sequentially (Cell 1 → Cell 9)
+4. Choose an input mode (Webcam or Static Image)
